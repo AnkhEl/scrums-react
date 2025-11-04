@@ -16,28 +16,11 @@ body {
   margin-bottom: 24px;
 }
 
-.search-input, .status-filter, .refresh-button {
+.search-input, .status-filter {
   padding: 8px 12px;
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 16px;
-}
-
-.refresh-button {
-  background: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.refresh-button:hover {
-  background: #43A047;
-}
-
-.refresh-button:disabled {
-  background: #9E9E9E;
-  cursor: not-allowed;
 }
 
 .search-input {
