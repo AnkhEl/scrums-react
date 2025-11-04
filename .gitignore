@@ -10,6 +10,9 @@
 /build
 /dist
 
+# Parcel
+/.parcel-cache/
+
 # Misc
 .DS_Store
 .env

@@ -1,6 +1,17 @@
 {
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "typecheck": "tsc --noEmit"
+  },
   "dependencies": {
     "react": "18.0.0",
     "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "parcel": "^2.16.0",
+    "typescript": "^5.9.3"
   }
 }
