@@ -1,4 +1,19 @@
-import { Asset } from './Challenge'; // Assuming types are exported
+export type AssetStatus = 'ACTIVE' | 'PENDING' | 'LIQUIDATED';
+export type AssetType = 'STOCK' | 'CRYPTO' | 'BOND';
+
+export interface Asset {
+    id: number;
+    name: string;
+    value: number;
+    type: AssetType;
+    status: AssetStatus;
+}
+
+export interface AssetListProps {
+    searchTerm: string;
+    statusFilter: AssetStatus | 'ALL';
+}
+
 
 // Mock data to simulate an API response
 const mockAssets: Asset[] = [
